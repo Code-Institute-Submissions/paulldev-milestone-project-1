@@ -27,6 +27,9 @@ I created my favicons using https://realfavicongenerator.net.
 ## Deployment
 
 ## Credits
+| Name | Site url | What does it do? |
+| :------ |:------- | :---- |
+| Real favicon generator | https://realfavicongenerator.net | Generates favicons from your image |
 
 ## Content
 
