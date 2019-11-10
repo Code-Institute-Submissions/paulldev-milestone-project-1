@@ -19,3 +19,16 @@ A lot of traditional language courses will teach you by subject (shopping, cloth
 | HTML5 | https://www.w3.org/TR/html52/ | To structure the website |
 | CSS3 | https://www.w3.org/Style/CSS/Overview.en.html | To style and layout the website |
 | Bootstrap | https://getbootstrap.com/ | To make layout easier |
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
+
+### Acknowledgements
+Special thanks to my mentor, Aaron Sinnott.
