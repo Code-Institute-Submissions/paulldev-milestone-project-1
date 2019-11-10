@@ -1,2 +1,2 @@
-# Speak Norwegian ![Speak Norwegian](mstile-150x150.png)
+# Speak Norwegian ![Speak Norwegian](favicon-32x32.png)
 ## https://paulldev.github.io/milestone-project-1/
