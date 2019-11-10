@@ -10,6 +10,8 @@ A lot of traditional language courses will teach you by subject (shopping, cloth
 ## UX
 
 ## Features
+⋅⋅* Favicon
+I created my favicons using https://realfavicongenerator.net.
 
 ## Future features to implement
 
@@ -26,9 +28,9 @@ A lot of traditional language courses will teach you by subject (shopping, cloth
 
 ## Credits
 
-### Content
+## Content
 
-### Media
+## Media
 
-### Acknowledgements
+## Acknowledgements
 Special thanks to my mentor, Aaron Sinnott.
