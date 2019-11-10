@@ -10,7 +10,7 @@ A lot of traditional language courses will teach you by subject (shopping, cloth
 ## UX
 
 ## Features
-⋅⋅* Favicon
+* Favicon
 I created my favicons using https://realfavicongenerator.net.
 
 ## Future features to implement
