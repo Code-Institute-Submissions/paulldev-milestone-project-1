@@ -2,3 +2,22 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* social media icons */
+.social-media a {
+    font-size: 3rem;
+    padding: 1rem;
+}
+.fa-facebook-square {
+    color: #4267B2;
+}
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+.fa-instagram {
+    color: #405DE6;
+}
+.fa-youtube {
+    color: #FF0000;
+}
+/* Overridden Bootstrap classes */
+
