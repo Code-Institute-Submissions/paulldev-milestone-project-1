@@ -58,21 +58,43 @@
     <main>
         <article>
             <section>
-                <form class="form-inline">
-                    <label class="my-3 mr-3" for="inlineFormCustomSelectPref">Select a tutor</label>
-                    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                        <option value="paul" selected>Paul</option>
-                        <option value="john">John</option>
-                        <option value="mary">Mary</option>
-                    </select>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
 
-                    <div class="custom-control custom-checkbox my-1 mr-sm-2">
-                        <input type="checkbox" class="custom-control-input" id="customControlInline">
-                        <label class="custom-control-label" for="customControlInline">Remember my preference</label>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <form>
+                                <h2>Book a session with a tutor</h2>
+                                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Choose a tutor:</label>
+                                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                                    <option value="paul" selected>Paul</option>
+                                    <option value="john">John</option>
+                                    <option value="mary">Mary</option>
+                                </select>
+                                <label for="start">Date:</label>
+                                <input type="date" id="start" name="trip-start" value="2019-11-22" min="2019-11-22"
+                                    max="2025-12-31">
+                                <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">17:00 - 17:45</label>
+                                </div>
+                                <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">18:00 - 18:45</label>
+                                </div>
+                                <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">19:00 - 19:45</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        <div class="col">
+
+                        </div>
                     </div>
-
-                    <button type="submit" class="btn btn-primary my-1">Submit</button>
-                </form>
+                </div>
             </section>
         </article>
     </main>
