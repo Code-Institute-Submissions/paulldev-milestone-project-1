@@ -24,7 +24,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <!--logo and site name-->
       <a class="navbar-brand" href="index.html"><img class="logo" src="favicon-32x32.png" alt="Logo"><span>Speak
           Norwegian</span></a>
@@ -56,16 +56,36 @@
   <main>
     <article>
       <section>
-        <div class="jumbotron">
-          <h2 class="display-4">Read, repeat, remember</h2>
-          <p class="lead">Our learning system will allow you to learn faster, more efficiently, and most importantly,
-            you will remember
-            all that you learn.</p>
-          <hr class="my-4">
-          <p class="lead">
-            <a class="btn btn-primary btn-lg" href="learning.html" role="button">Start learning</a>
-          </p>
-        </div>
+        <div id="carouselIntro" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselIntro" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselIntro" data-slide-to="1"></li>
+            <li data-target="#carouselIntro" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+            </div>
+            <div class="carousel-item">
+
+            </div>
+            </div>
+            <div class="carousel-item">
+
+            </div>
+            <div class="carousel-item">
+              <div class="d-block w-100">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselIntro" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselIntro" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
       </section>
       <section class="tutors">
         <h2>Individual tuition</h2>
