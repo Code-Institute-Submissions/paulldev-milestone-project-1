@@ -1,23 +1,32 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #36454f;
 }
 
 /* social media icons */
 .social-media a {
-    font-size: 3rem;
-    padding: 1rem;
+  font-size: 3rem;
+  padding: 1rem;
 }
 .fa-facebook-square {
-    color: #4267B2;
+  color: #4267b2;
 }
 .fa-twitter-square {
-    color: #1DA1F2;
+  color: #1da1f2;
 }
 .fa-instagram {
-    color: #405DE6;
+  color: #405de6;
 }
 .fa-youtube {
-    color: #FF0000;
+  color: #ff0000;
 }
-/* Overridden Bootstrap classes */
+/* hover effects */
 
+/* Carousel */
+.carousel-inner > .carousel-item {
+    height: 90vh;
+ }
+/* Overridden Bootstrap classes */
+.carousel-item {
+    background-color: #4062BB;
+}
