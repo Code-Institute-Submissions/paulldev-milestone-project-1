@@ -36,7 +36,9 @@ body {
 }
 .card {
     background-color: #4062BB;
+    margin-bottom: 2rem;
     width: 22rem;
+    height: 100%;
     border-radius: 1rem;
 }
 /* social media icons */
