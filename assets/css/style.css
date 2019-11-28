@@ -2,18 +2,40 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: #4062BB;
 }
+/* Bootstrap: remove default padding */
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+/* Navbar logo */
+.logo {
+    margin-right: 0.5rem;
+}
+/* Carousel */
+.carousel-inner > .carousel-item {
+    height: 90vh;
+}
+.carousel-item {
+    background-color: #4062BB;
+}
+/* Carousel images */
 .carousel-item img {
     height: 30vh;
     border-radius: 50%;
 }
-.logo {
-    margin-right: 0.5rem;
+/* Tutors card images */
+.card img {
+    border-radius: 50%;
+    padding: 2rem;
 }
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 .tutors {
     background-image: url("../images/heads-thinking.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.card {
+    background-color: #4062BB;
 }
 /* social media icons */
 .social-media a {
@@ -33,16 +55,3 @@ body {
   color: #ff0000;
 }
 /* hover effects */
-
-/* Carousel */
-.carousel-inner > .carousel-item {
-    height: 90vh;
- }
-/* Overridden Bootstrap classes */
-.carousel-item {
-    background-color: #4062BB;
-}
-.container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-}
