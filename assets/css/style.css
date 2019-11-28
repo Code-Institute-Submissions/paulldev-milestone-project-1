@@ -36,6 +36,8 @@ body {
 }
 .card {
     background-color: #4062BB;
+    width: 22rem;
+    border-radius: 1rem;
 }
 /* social media icons */
 .social-media a {
