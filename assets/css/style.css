@@ -23,11 +23,6 @@ body {
     height: 30vh;
     border-radius: 50%;
 }
-/* Tutors card images */
-.card img {
-    border-radius: 50%;
-    padding: 2rem;
-}
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 .tutors {
     background-image: url("../images/heads-thinking.jpg");
@@ -40,6 +35,12 @@ body {
     width: 22rem;
     height: 100%;
     border-radius: 1rem;
+    padding: 0px;
+    margin: 0px;
+}
+/* Tutors card images */
+.card-img-top {
+    border-radius: 50%;
 }
 /* social media icons */
 .social-media a {
