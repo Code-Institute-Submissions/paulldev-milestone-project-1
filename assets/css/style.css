@@ -1,48 +1,55 @@
 body {
   font-family: "Ubuntu", sans-serif;
-  background-color: #4062BB;
+  background-color: #4062bb;
 }
 /* Bootstrap: remove default padding */
 .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 /* Navbar logo */
 .logo {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
+}
+.navbar-dark .navbar-brand {
+    color: #ffffff;
 }
 /* Carousel */
 .carousel-inner > .carousel-item {
-    height: 90vh;
+  height: 90vh;
 }
 .carousel-item {
-    background-color: #4062BB;
+  background-color: #4062bb;
 }
 /* Carousel images */
 .carousel-item img {
-    height: 30vh;
-    border-radius: 50%;
+  height: 30vh;
+  border-radius: 50%;
 }
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 .tutors {
-    background-image: url("../images/heads-thinking.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("../images/heads-thinking.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .card {
-    background-color: #4062BB;
-    margin-bottom: 2rem;
-    width: 22rem;
-    height: 100%;
-    border-radius: 1rem;
+  background-color: #4062bb;
+  margin-bottom: 2rem;
+  width: 22rem;
+  height: 100%;
+  border-radius: 1rem;
 }
+/* cards */
 .tutors .col-auto {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 /* Tutors card images */
 .card-img-top {
-    border-radius: 50%;
-    padding: 1rem 1rem;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+}
+.header-social-media {
+    color: #ffffff;
 }
 /* social media icons */
 .social-media a {
@@ -62,3 +69,6 @@ body {
   color: #ff0000;
 }
 /* hover effects */
+.social-media a:hover {
+    font-size: 5rem;
+}
