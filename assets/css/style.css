@@ -2,11 +2,6 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: #4062bb;
 }
-/* Bootstrap: remove default padding */
-/*.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-}*/
 /* Navbar logo */
 .logo {
   margin-right: 0.5rem;
@@ -37,7 +32,8 @@ body {
     color: white;
 }
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
-.tutors {
+#tutors {
+    padding-top: 2rem;
   background-image: url("../images/heads-thinking.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
@@ -46,20 +42,38 @@ body {
   background-color: #4062bb;
   margin-bottom: 2rem;
   width: 22rem;
-  height: 100%;
+  height: 100%;/*all cards are the same height*/
   border-radius: 1rem;
 }
 /* cards */
-.tutors .col-auto {
-  padding-bottom: 2rem;
+#tutors .col-auto {
+  padding-bottom: 2rem;/*gap between card rows, if more tutors are added*/
 }
 /* Tutors card images */
 .card-img-top {
   border-radius: 50%;
   padding: 1rem 1rem;
 }
+/* contact us */
+.contact-us .row,
+.book-a-session .row {
+    height: 50vh;
+}
+/* input-group-prepend equal width https://www.codeply.com/go/wv5NMmTgwq/bootstrap-4-input_group-prepend-equal-width */
+.input-group>.input-group-prepend {
+    flex: 0 0 6%;
+}
+.input-group .input-group-text {
+    width: 100%;
+}#contact-form .input-group {
+    padding-bottom: 1rem;
+}
+/* social media */
 .header-social-media {
     color: #ffffff;
+}
+footer {
+    padding-top: 2rem;
 }
 /* social media icons */
 .social-media a {
@@ -81,4 +95,11 @@ body {
 /* hover effects */
 .social-media a:hover {
     font-size: 5rem;
+}
+/* Underline From Center */
+.hvr-underline-from-center:before {
+  background: rgba(251, 77, 61, 1);
+  height: 2px;
+  left: 55%;
+  right: 55%
 }
