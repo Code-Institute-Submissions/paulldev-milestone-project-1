@@ -23,46 +23,44 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <!--logo and site name-->
-                <a class="navbar-brand" href="index.html"><img class="logo" src="favicon-32x32.png"
-                        alt="Logo"><span>Speak
-                        Norwegian</span></a>
-                <!--menu button-->
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!--everything in here gets collapsed at the relevant break point-->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="learning.html"><i class="fas fa-graduation-cap"></i> Start
-                                Learning
-                                <span class="sr-only">(current)</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="booking.html"><i class="fas fa-user-clock"></i> Book a session</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <article>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <!--logo and site name-->
+            <a class="navbar-brand" href="index.html"><img class="logo" src="favicon-32x32.png" alt="Logo"><span>Speak
+                    Norwegian</span></a>
+            <!--menu button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--everything in here gets collapsed at the relevant break point-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="learning.html"><i class="fas fa-graduation-cap"></i> Start
+                            Learning
+                            <span class="sr-only">(current)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="booking.html"><i class="fas fa-user-clock"></i> Book a session</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class="learning">
                 <!-- Learning description -->
-                <div class="row d-flex justify-content-center">
-                    <div class="col-6">
-                        <section class="learning">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center mx-auto">
+                        <div class="col-6">
                             <h2>Learning</h2>
                             <p>
                                 Look at the english word and then look at the norwegian translation. Pay attention to
@@ -78,19 +76,21 @@
                                 you
                                 how it is used.
                             </p>
+                        </div>
                     </div>
                 </div><!-- /Learning description -->
                 <!-- Word list -->
-                <div class="row d-flex justify-content-center">
-                    <div class="col-5 text-right">
-                        <span>word1-english</span>
-                    </div>
-                    <div class="col-1 text-center">
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="col-5 text-left">
-                        <span>word1-norwegian</span>
-                        <!--                        <span>
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center mx-auto">
+                        <div class="col-5 text-right">
+                            <span>word1-english</span>
+                        </div>
+                        <div class="col-1 text-center">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="col-5 text-left">
+                            <span>word1-norwegian</span>
+                            <!--                        <span>
                             <audio controls>
                                 <source src="myAudio.mp3" type="audio/mpeg">
                                 <source src="myAudio.ogg" type="audio/ogg">
@@ -98,27 +98,28 @@
                                     a <a href="myAudio.mp4">link to the audio</a> instead.</p>
                             </audio>
                         </span> -->
+                        </div>
                     </div>
                 </div><!-- Word list -->
-                <div class="row d-flex justify-content-center">
-                    <div class="col-5 text-right">
-                        <span>word1-english-sentence</span>
-                    </div>
-                    <div class="col-1 text-center">
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="col-5 text-left">
-                        <span>word1-norwegian-sentence</span>
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center mx-auto">
+                        <div class="col-5 text-right">
+                            <span>word1-english-sentence</span>
+                        </div>
+                        <div class="col-1 text-center">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="col-5 text-left">
+                            <span>word1-norwegian-sentence</span>
+                        </div>
                     </div>
                 </div>
-                </section>
-            </article>
-        </main>
-        <footer>
+            </section>
+        </article>
+    </main>
+    <footer>
 
-        </footer>
-    </div>
-    <!--container-fluid-->
+    </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -128,5 +129,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+</body>
 
 </html>
