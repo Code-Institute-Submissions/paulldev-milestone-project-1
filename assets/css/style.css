@@ -26,6 +26,10 @@ body {
   height: 30vh;
   border-radius: 50%;
 }
+.carousel-item .row {
+    height: inherit;
+/*    background-color: red;*/
+}
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 .tutors {
   background-image: url("../images/heads-thinking.jpg");
