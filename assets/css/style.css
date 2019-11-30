@@ -3,10 +3,10 @@ body {
   background-color: #4062bb;
 }
 /* Bootstrap: remove default padding */
-.container-fluid {
+/*.container-fluid {
   padding-right: 0;
   padding-left: 0;
-}
+}*/
 /* Navbar logo */
 .logo {
   margin-right: 0.5rem;
@@ -30,10 +30,16 @@ body {
     height: inherit;
 /*    background-color: red;*/
 }
+.carousel-item p {
+    color: white;
+}
+.carousel-item h2 {
+    color: white;
+}
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 .tutors {
   background-image: url("../images/heads-thinking.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
 }
 .card {
