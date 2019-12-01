@@ -2,9 +2,10 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: #4062bb;
 }
+/***************************************************************************** NAVBAR */
 /* Navbar logo */
 .logo {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 .navbar-dark .navbar-brand {
     color: #ffffff;
@@ -12,7 +13,7 @@ body {
 /***************************************************************************** CAROUSEL */
 /* set carousel-item height */
 .carousel-inner > .carousel-item {
-  height: 95vh;
+    height: 95vh;
 }
 .carousel-item {
     padding-top: 4rem; /* padding above carousel images */
@@ -20,8 +21,8 @@ body {
 }
 /* Carousel images */
 .carousel-item img {
-  height: 25vh;
-  border-radius: 50%;/* rounded images */
+    height: 25vh;
+    border-radius: 50%;/* rounded images */
 }
 .carousel-item .row {
     height: inherit; /* inherited from carousel-item */
@@ -51,24 +52,24 @@ body {
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 #tutors {
     padding-top: 2rem;
-  background-image: url("../images/heads-thinking.jpg");
-  background-repeat: repeat;
-  background-attachment: fixed;
+    background-image: url("../images/heads-thinking.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 .card {
-  background-color: #4062bb;
-  margin-bottom: 2rem;
-  width: 22rem;
-  height: 100%;/*all cards are the same height*/
-  border-radius: 1rem;
+    background-color: #4062bb;
+    margin-bottom: 2rem;
+    width: 22rem;
+    height: 100%;/*all cards are the same height*/
+    border-radius: 1rem;
 }
 #tutors .col-auto {
-  padding-bottom: 2rem;/*gap between card rows, if more tutors are added*/
+    padding-bottom: 2rem;/*gap between card rows, if more tutors are added*/
 }
 /* Tutors card images */
 .card-img-top {
-  border-radius: 50%;
-  padding: 1rem 1rem;
+    border-radius: 50%;
+    padding: 1rem 1rem;
 }
 /***************************************************************************** CONTACT US */
 .contact-us .row,
@@ -77,6 +78,9 @@ body {
 }
 .submit-button {
     text-align: center;
+}
+#contact-form p {
+    padding-bottom: 2rem;
 }
 /* input-group-prepend equal width https://www.codeply.com/go/wv5NMmTgwq/bootstrap-4-input_group-prepend-equal-width */
 .input-group>.input-group-prepend {
@@ -96,20 +100,20 @@ footer {
 }
 /* social media icons */
 .social-media a {
-  font-size: 3rem;
-  padding: 1rem;
+    font-size: 3rem;
+    padding: 1rem;
 }
 .fa-facebook-square {
-  color: #4267b2;
+    color: #4267b2;
 }
 .fa-twitter-square {
-  color: #1da1f2;
+    color: #1da1f2;
 }
 .fa-instagram {
-  color: #405de6;
+    color: #405de6;
 }
 .fa-youtube {
-  color: #ff0000;
+    color: #ff0000;
 }
 /***************************************************************************** COPYRIGHT */
 .copyright {
@@ -126,8 +130,8 @@ footer {
 /***************************************************************************** HOVER EFFECTS */
 /* Underline From Center */
 .hvr-underline-from-center:before {
-  background: rgba(251, 77, 61, 1);
-  height: 2px;
-  left: 55%;
-  right: 55%
+    background: rgba(251, 77, 61, 1);
+    height: 2px;
+    left: 55%;
+    right: 55%
 }
