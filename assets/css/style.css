@@ -93,9 +93,6 @@ footer {
   color: #ff0000;
 }
 /* hover effects */
-.social-media a:hover {
-    font-size: 5rem;
-}
 /* Underline From Center */
 .hvr-underline-from-center:before {
   background: rgba(251, 77, 61, 1);
