@@ -118,9 +118,17 @@ footer {
 }
 .english {
     background-color: green;
+    border-radius: 5px;
+}
+.chevron {
+    padding: 0 0.5rem 0 0.5rem;
 }
 .norwegian {
-    background-color: red;
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+#word-list li {
+    padding: 1rem 1rem;
 }
 /***************************************************************************** BOOK A SESSION */
 #book-a-session {
