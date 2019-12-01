@@ -105,7 +105,12 @@ footer {
 .fa-youtube {
   color: #ff0000;
 }
-/* hover effects */
+/************************************************************************ copyright */
+.copyright {
+    padding-top: 1rem;
+    color: #abbbc6;
+}
+/************************************************************************ hover effects */
 /* Underline From Center */
 .hvr-underline-from-center:before {
   background: rgba(251, 77, 61, 1);
