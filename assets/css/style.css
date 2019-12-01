@@ -116,8 +116,12 @@ footer {
     padding: 0;
     margin: 0;
 }
+#word-list li {
+    background-color: indigo;
+    margin-bottom: 0.5rem;
+}
 .english {
-    background-color: green;
+    background-color: blue;
     border-radius: 5px;
 }
 .chevron {
@@ -126,6 +130,9 @@ footer {
 .norwegian {
     background-color: #ff0000;
     border-radius: 5px;
+}
+.word-list-margin-bottom {
+    margin-bottom: 1rem;
 }
 #word-list li {
     padding: 1rem 1rem;
