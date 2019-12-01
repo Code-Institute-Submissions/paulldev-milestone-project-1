@@ -108,7 +108,13 @@ footer {
     color: #ffffff;
 }
 #word-list {
-    padding-top: 2rem;
+    background-color: lightblue;
+
+}
+#word-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 /***************************************************************************** BOOK A SESSION */
 #book-a-session {
