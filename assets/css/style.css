@@ -39,11 +39,15 @@ body {
 .carousel-item p {
     color: #ffffff;
 }
+.carousel-indicators {
+    margin-bottom: 1rem;
+}
 /* 'start learning', 'book a session' buttons */
 .btn-start-learning, .btn-book-session {
     margin-top: 1rem;
     box-shadow: 5px 5px 10px #212529;
 }
+/***************************************************************************** TUTOR CARDS */
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 #tutors {
     padding-top: 2rem;
@@ -58,7 +62,6 @@ body {
   height: 100%;/*all cards are the same height*/
   border-radius: 1rem;
 }
-/************************************************************************************ TUTOR CARDS */
 #tutors .col-auto {
   padding-bottom: 2rem;/*gap between card rows, if more tutors are added*/
 }
@@ -105,12 +108,19 @@ footer {
 .fa-youtube {
   color: #ff0000;
 }
-/************************************************************************ copyright */
+/***************************************************************************** COPYRIGHT */
 .copyright {
     padding-top: 1rem;
     color: #abbbc6;
 }
-/************************************************************************ hover effects */
+/***************************************************************************** CONTACT US */
+h2, p {
+    color: #ffffff;
+}
+#contact-us .row {
+    height: 50vh;
+}
+/***************************************************************************** HOVER EFFECTS */
 /* Underline From Center */
 .hvr-underline-from-center:before {
   background: rgba(251, 77, 61, 1);
