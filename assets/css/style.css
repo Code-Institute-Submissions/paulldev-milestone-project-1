@@ -31,13 +31,18 @@ body {
     padding: 1rem 1rem;
     color: white;
 }
+/* icon<->h2 padding */
+.carousel-item h2 i {
+    padding-right: 0.5rem;
+}
 /* paragraph text */
 .carousel-item p {
     color: white;
 }
 /* 'start learning' buttons */
 .btn-start-learning {
-    padding-top: 2rem:
+    margin-top: 1rem;
+    box-shadow: 5px 5px 10px #212529;
 }
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 #tutors {
