@@ -100,6 +100,20 @@ footer {
     padding-top: 1rem;
     color: #abbbc6;
 }
+/***************************************************************************** START LEARNING */
+#learning {
+    padding-top: 3rem;
+}
+#learning h2, #learning p {
+    color: #ffffff;
+}
+#word-list {
+    padding-top: 2rem;
+}
+/***************************************************************************** BOOK A SESSION */
+#book-a-session {
+    padding-top: 3rem;
+}
 /***************************************************************************** CONTACT US */
 #contact-us h2, #contact-us p {
     color: #ffffff;
@@ -107,10 +121,6 @@ footer {
 #contact-us {
     padding-top: 3rem;
 }
-/*#contact-us .row,
-.book-a-session .row {
-    height: 50vh;
-}*/
 .submit-button {
     text-align: center;
 }
