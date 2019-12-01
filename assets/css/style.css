@@ -116,6 +116,12 @@ footer {
     padding: 0;
     margin: 0;
 }
+.english {
+    background-color: green;
+}
+.norwegian {
+    background-color: red;
+}
 /***************************************************************************** BOOK A SESSION */
 #book-a-session {
     padding-top: 3rem;
