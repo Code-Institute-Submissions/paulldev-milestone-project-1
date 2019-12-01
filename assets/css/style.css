@@ -9,27 +9,35 @@ body {
 .navbar-dark .navbar-brand {
     color: #ffffff;
 }
-/* Carousel */
+/***************************************************************************** CAROUSEL */
+/* set carousel-item height */
 .carousel-inner > .carousel-item {
-  height: 90vh;
+  height: 95vh;
 }
 .carousel-item {
-  background-color: #4062bb;
+    padding-top: 4rem; /* padding above carousel images */
+    background-color: #4062bb;
 }
 /* Carousel images */
 .carousel-item img {
-  height: 30vh;
+  height: 25vh;
   border-radius: 50%;
 }
 .carousel-item .row {
-    height: inherit;
-/*    background-color: red;*/
+    height: inherit; /* inherited from carousel-item */
 }
+/* heading text */
+.carousel-item h2 {
+    padding: 1rem 1rem;
+    color: white;
+}
+/* paragraph text */
 .carousel-item p {
     color: white;
 }
-.carousel-item h2 {
-    color: white;
+/* 'start learning' buttons */
+.btn-start-learning {
+    padding-top: 2rem:
 }
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
 #tutors {
@@ -45,7 +53,7 @@ body {
   height: 100%;/*all cards are the same height*/
   border-radius: 1rem;
 }
-/* cards */
+/************************************************************************************ TUTOR CARDS */
 #tutors .col-auto {
   padding-bottom: 2rem;/*gap between card rows, if more tutors are added*/
 }
