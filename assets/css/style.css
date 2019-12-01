@@ -118,7 +118,9 @@ footer {
 }
 #word-list li {
     background-color: indigo;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    margin: auto;
 }
 .english {
     background-color: blue;
@@ -132,7 +134,7 @@ footer {
     border-radius: 5px;
 }
 .word-list-margin-bottom {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 #word-list li {
     padding: 1rem 1rem;
