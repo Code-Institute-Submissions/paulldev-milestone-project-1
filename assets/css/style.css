@@ -21,7 +21,7 @@ body {
 /* Carousel images */
 .carousel-item img {
   height: 25vh;
-  border-radius: 50%;
+  border-radius: 50%;/* rounded images */
 }
 .carousel-item .row {
     height: inherit; /* inherited from carousel-item */
@@ -29,7 +29,7 @@ body {
 /* heading text */
 .carousel-item h2 {
     padding: 1rem 1rem;
-    color: white;
+    color: #ffffff;
 }
 /* icon<->h2 padding */
 .carousel-item h2 i {
@@ -37,10 +37,10 @@ body {
 }
 /* paragraph text */
 .carousel-item p {
-    color: white;
+    color: #ffffff;
 }
-/* 'start learning' buttons */
-.btn-start-learning {
+/* 'start learning', 'book a session' buttons */
+.btn-start-learning, .btn-book-session {
     margin-top: 1rem;
     box-shadow: 5px 5px 10px #212529;
 }
