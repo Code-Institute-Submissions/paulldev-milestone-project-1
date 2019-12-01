@@ -70,10 +70,13 @@ body {
   border-radius: 50%;
   padding: 1rem 1rem;
 }
-/* contact us */
+/***************************************************************************** CONTACT US */
 .contact-us .row,
 .book-a-session .row {
     height: 50vh;
+}
+.submit-button {
+    text-align: center;
 }
 /* input-group-prepend equal width https://www.codeply.com/go/wv5NMmTgwq/bootstrap-4-input_group-prepend-equal-width */
 .input-group>.input-group-prepend {
@@ -114,11 +117,11 @@ footer {
     color: #abbbc6;
 }
 /***************************************************************************** CONTACT US */
-h2, p {
+#contact-us h2, #contact-us p {
     color: #ffffff;
 }
 #contact-us .row {
-    height: 50vh;
+    height: 60vh;
 }
 /***************************************************************************** HOVER EFFECTS */
 /* Underline From Center */
