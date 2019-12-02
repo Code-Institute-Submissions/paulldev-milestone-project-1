@@ -43,6 +43,10 @@ body {
 }
 /***************************************************************************** TUTOR CARDS */
 /* https://www.w3schools.com/cssref/pr_background-attachment.asp */
+#tutors h2,
+#tutors p {
+    color: #212121;
+}
 #tutors {
     padding-top: 2rem;
     background-image: url("../images/heads-thinking.jpg");
