@@ -164,11 +164,14 @@ audio {
 [type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
 }
-input {
+#book-a-session input {
     border: 1px solid #c4c4c4;
     border-radius: 5px;
     padding: 6px 6px;
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 200px;
+}
+#book-a-session select {
     width: 200px;
 }
 /***************************************************************************** CONTACT US */
