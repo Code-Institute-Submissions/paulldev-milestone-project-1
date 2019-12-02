@@ -136,8 +136,17 @@ audio {
 #book-a-session {
     padding-top: 3rem;
 }
+.session-form-padding {
+    padding-top: 1rem;
+}
 #book-a-session form button {
     margin-top: 1rem;
+}
+/* https://stackoverflow.com/questions/9686538/align-labels-in-form-next-to-input */
+#book-a-session label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
 }
 /***************************************************************************** CONTACT US */
 #contact-us {
@@ -145,6 +154,7 @@ audio {
 }
 .submit-button {
     text-align: center;
+    margin-top: 1rem;
 }
 #contact-form p {
     padding-bottom: 2rem;
@@ -155,7 +165,8 @@ audio {
 }
 .input-group .input-group-text {
     width: 100%;
-}#contact-form .input-group {
+}
+#contact-form .input-group {
     padding-bottom: 1rem;
 }
 /***************************************************************************** HOVER EFFECTS */
