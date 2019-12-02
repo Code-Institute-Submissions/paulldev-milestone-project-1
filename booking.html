@@ -69,30 +69,58 @@
                 <div class="container-fluid">
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="col-sm-10 col-md-8 col-lg-6">
-                            <form>
+                            <form class="form-inline">
                                 <h2 class="text-center">Book a session with a tutor</h2>
-                                <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Choose a tutor:</label>
-                                <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                                    <option value="paul" selected>Paul</option>
-                                    <option value="john">John</option>
-                                    <option value="mary">Mary</option>
-                                </select>
-                                <label for="start">Date:</label>
-                                <input type="date" id="start" name="trip-start" value="2019-11-22" min="2019-11-22"
-                                    max="2025-12-31">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">17:00 - 17:45</label>
+                                <p class="text-center">
+                                    A session with one of our tutors is a great way to get experience speaking to a
+                                    native speaker. You will be given lots of guidance and feedback to help you improve
+                                    you norwegian.
+                                </p>
+                                <div class="row d-flex justify-content-center align-items-center">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <label for="tutor-select">Choose a tutor:</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <select class="custom-select" id="tutor-select">
+                                                    <option value="paul" selected>Paul</option>
+                                                    <option value="john">John</option>
+                                                    <option value="mary">Mary</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 session-form-padding">
+                                        <div class="row">
+                                            <div class="col-3">
+                                                <label for="start">Choose a date:</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <input type="date" id="start" name="start" value="2019-12-03"
+                                                    min="2019-12-03" max="2025-12-31">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 session-form-padding">
+                                        <div class="row">
+                                            <div class="col-3 text-right">
+                                                <label for="time-select">Choose a time:</label>
+                                            </div>
+                                            <div class="col-9">
+                                                <select class="custom-select" id="time-select">
+                                                    <option value="time1" selected>17:00 - 17:45</option>
+                                                    <option value="time2">18:00 - 18:45</option>
+                                                    <option value="time3">19:00 - 19:45</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-success hvr-grow-shadow">Book
+                                            session</button>
+                                    </div>
                                 </div>
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">18:00 - 18:45</label>
-                                </div>
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">19:00 - 19:45</label>
-                                </div>
-                                <button type="submit" class="btn btn-primary hvr-grow-shadow">Book session</button>
                             </form>
                         </div>
                     </div>
