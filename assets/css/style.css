@@ -110,7 +110,7 @@ footer {
 .english {
     background-color: #0288d1;
     color: #ffffff;
-    border-radius: 5px;
+/*    border-radius: 5px;*/
 }
 .chevron {
     color: #757575;
@@ -119,7 +119,7 @@ footer {
 .norwegian {
     background-color: #c62828;
     color: #ffffff;
-    border-radius: 5px;
+/*    border-radius: 5px;*/
 }
 audio {
     height: 20px;/*reduce height of audio player*/
