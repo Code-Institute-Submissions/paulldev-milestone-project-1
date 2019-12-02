@@ -107,41 +107,41 @@ footer {
 #learning h2, #learning p {
     color: #ffffff;
 }
-#word-list {
-    background-color: lightblue;
-
-}
-#word-list ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-#word-list li {
-    background-color: indigo;
-    margin-bottom: 1rem;
-    width: 90%;
-    margin: auto;
-}
 .english {
-    background-color: blue;
+    background-color: #0288d1;
+    color: #ffffff;
     border-radius: 5px;
 }
 .chevron {
+    color: #757575;
     padding: 0 0.5rem 0 0.5rem;
 }
 .norwegian {
-    background-color: #ff0000;
+    background-color: #c62828;
+    color: #ffffff;
     border-radius: 5px;
 }
-.word-list-margin-bottom {
-    margin-bottom: 0.5rem;
+audio {
+    height: 20px;/*reduce height of audio player*/
+    width: 220px;
 }
-#word-list li {
-    padding: 1rem 1rem;
+.word-container {
+    border-radius: 8px;
+    background-color: #343a40;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.word-list-margin-bottom {
+    margin-bottom: 0.8rem;
 }
 /***************************************************************************** BOOK A SESSION */
 #book-a-session {
     padding-top: 3rem;
+}
+#book-a-session h2 {
+    color: #ffffff;
 }
 /***************************************************************************** CONTACT US */
 #contact-us h2, #contact-us p {
