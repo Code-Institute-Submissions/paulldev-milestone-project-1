@@ -1,14 +1,12 @@
 body {
   font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
   background-color: #4062bb;
 }
 /***************************************************************************** NAVBAR */
 /* Navbar logo */
 .logo {
     margin-right: 0.5rem;
-}
-.navbar-dark .navbar-brand {
-    color: #ffffff;
 }
 /***************************************************************************** CAROUSEL */
 /* set carousel-item height */
@@ -30,15 +28,10 @@ body {
 /* heading text */
 .carousel-item h2 {
     padding: 1rem 1rem;
-    color: #ffffff;
 }
 /* icon<->h2 padding */
 .carousel-item h2 i {
     padding-right: 0.5rem;
-}
-/* paragraph text */
-.carousel-item p {
-    color: #ffffff;
 }
 .carousel-indicators {
     margin-bottom: 1rem;
@@ -72,9 +65,6 @@ body {
     padding: 1rem 1rem;
 }
 /* social media */
-.header-social-media {
-    color: #ffffff;
-}
 footer {
     padding-top: 2rem;
 }
@@ -104,13 +94,12 @@ footer {
 #learning {
     padding-top: 3rem;
 }
-#learning h2, #learning p {
-    color: #ffffff;
-}
 .english {
     background-color: #0288d1;
-    color: #ffffff;
-/*    border-radius: 5px;*/
+    padding: 0.5rem 0 0.5rem 0;
+}
+#word-list audio {
+    margin-top: 0.5rem;
 }
 .chevron {
     color: #757575;
@@ -118,8 +107,7 @@ footer {
 }
 .norwegian {
     background-color: #c62828;
-    color: #ffffff;
-/*    border-radius: 5px;*/
+    padding: 0.5rem 0 0.5rem 0;
 }
 audio {
     height: 20px;/*reduce height of audio player*/
@@ -140,13 +128,7 @@ audio {
 #book-a-session {
     padding-top: 3rem;
 }
-#book-a-session h2 {
-    color: #ffffff;
-}
 /***************************************************************************** CONTACT US */
-#contact-us h2, #contact-us p {
-    color: #ffffff;
-}
 #contact-us {
     padding-top: 3rem;
 }
