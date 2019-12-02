@@ -3,6 +3,9 @@ body {
   color: #ffffff;
   background-color: #4062bb;
 }
+a:hover {
+    text-decoration: none;/*no anchor links should not underline on hover*/
+}
 /***************************************************************************** NAVBAR */
 /* Navbar logo */
 .logo {
