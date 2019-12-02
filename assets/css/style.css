@@ -95,6 +95,7 @@ footer {
 /***************************************************************************** COPYRIGHT */
 .copyright {
     padding-top: 1rem;
+    padding-bottom: 0.5rem;
     color: #abbbc6;
 }
 /***************************************************************************** START LEARNING */
@@ -134,6 +135,9 @@ audio {
 /***************************************************************************** BOOK A SESSION */
 #book-a-session {
     padding-top: 3rem;
+}
+#book-a-session form button {
+    margin-top: 1rem;
 }
 /***************************************************************************** CONTACT US */
 #contact-us {
