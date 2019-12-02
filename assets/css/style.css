@@ -102,6 +102,9 @@ footer {
 #learning {
     padding-top: 3rem;
 }
+#learning p {
+    padding-bottom: 2rem;
+}
 .english {
     background-color: #0288d1;
     padding: 0.5rem 0 0.5rem 0;
@@ -135,6 +138,9 @@ audio {
 /***************************************************************************** BOOK A SESSION */
 #book-a-session {
     padding-top: 3rem;
+}
+#book-a-session p {
+    padding-bottom: 2rem;
 }
 .session-form-padding {
     padding-top: 1rem;
