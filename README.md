@@ -85,7 +85,7 @@ I initially used a Jumbotron for this area, but later decided that a carousel wo
 
 I initially considered using a background carousel image with overlayed text. This would have been easier to implement, but more difficult to avoid clashes between my text colour and the image colours. I settled for white text with a blue background. This provided good contrast.
 The circular images are there to provide a visual meaning to each slide. The icons (from Font Awesome) that are beside each carousel item heading, also provide visual meaning. 
-I wanted the carousel to take up the full screen height using 100vh, but I found that 95vh worked best on most devices.
+I wanted the carousel to take up the full screen height using 100vh, but I found that 85vh worked best on most devices.
 The implemented responsiveness stops the text moving behind the carousel arrows.
 #### Homepage > Tutors
 I used Bootstrap cards to represent each tutor that was available to book a session with. After much experimentation, I achieved the effect I was looking for: cards that didn't get squashed, and moved to the next line (centered), as I tested for responsiveness.
