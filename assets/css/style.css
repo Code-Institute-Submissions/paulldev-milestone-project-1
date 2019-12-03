@@ -1,10 +1,10 @@
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;/*google font, Ubuntu*/
   color: #ffffff;
   background-color: #4062bb;
 }
 a:hover {
-    text-decoration: none;/*no anchor links should not underline on hover*/
+    text-decoration: none;/*anchor links should not underline on hover*/
 }
 /***************************************************************************** NAVBAR */
 /* Navbar logo */
@@ -14,10 +14,10 @@ a:hover {
 /***************************************************************************** CAROUSEL */
 /* set carousel-item height */
 .carousel-inner > .carousel-item {
-    height: 95vh;
+    height: 85vh;
 }
 .carousel-item {
-    padding-top: 4rem; /* padding above carousel images */
+    margin-top: 4rem; /* margin above carousel images */
     background-color: #4062bb;
 }
 /* Carousel images */
@@ -32,20 +32,25 @@ a:hover {
 .carousel-item h2 {
     padding: 1rem 1rem;
 }
-/* icon<->h2 padding */
+/* icon <--> h2 padding */
 .carousel-item h2 i {
     padding-right: 0.5rem;
 }
 .carousel-indicators {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;/*move carousel indicators up slightly*/
 }
-/* 'start learning', 'book a session' buttons */
-.btn-start-learning, .btn-book-session {
-    margin-top: 1rem;
+/* 'start learning', 'book a session', 'send message' buttons */
+.btn-start-learning,
+.btn-book-session,
+.btn-send-message {
     box-shadow: 5px 5px 10px #212529;
 }
+.action-button {
+    text-align: center;
+    margin-top: 1rem;
+}
 /***************************************************************************** TUTOR CARDS */
-/* https://www.w3schools.com/cssref/pr_background-attachment.asp */
+/*dark text improves contrast with background image*/
 #tutors>h2,
 #tutors>p {
     color: #212121;
@@ -64,7 +69,7 @@ a:hover {
     border-radius: 1rem;
 }
 #tutors .col-auto {
-    padding-bottom: 2rem;/*gap between card rows, if more tutors are added*/
+    margin-bottom: 2rem;/*gap between card rows, if more tutors are added*/
 }
 /* Tutors card images */
 .card-img-top {
@@ -76,7 +81,7 @@ footer {
     padding-top: 2rem;
 }
 /* social media icons */
-.social-media a {
+#social-media a {
     font-size: 3rem;
     padding: 1rem;
 }
@@ -93,9 +98,7 @@ footer {
     color: #ff0000;
 }
 /***************************************************************************** COPYRIGHT */
-.copyright {
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
+#copyright {
     color: #abbbc6;
 }
 /***************************************************************************** START LEARNING */
@@ -137,15 +140,15 @@ audio {
 }
 /***************************************************************************** BOOK A SESSION */
 #book-a-session {
-    padding-top: 3rem;
+    margin-top: 3rem;
 }
 #book-a-session p {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
-.session-form-padding {
-    padding-top: 1rem;
+.session-form-margin {
+    margin-top: 1rem;
 }
-#book-a-session form button {
+.btn-book-session {
     margin-top: 1rem;
 }
 /* date picker https://codepen.io/maheshambure21/pen/VYJQYG */
@@ -173,14 +176,14 @@ audio {
 }
 /***************************************************************************** CONTACT US */
 #contact-us {
-    padding-top: 3rem;
+    margin-top: 3rem;
 }
 .submit-button {
     text-align: center;
     margin-top: 1rem;
 }
 #contact-form p {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 /* input-group-prepend equal width https://www.codeply.com/go/wv5NMmTgwq/bootstrap-4-input_group-prepend-equal-width */
 .input-group>.input-group-prepend {
@@ -190,7 +193,7 @@ audio {
     width: 100%;
 }
 #contact-form .input-group {
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 /***************************************************************************** HOVER EFFECTS */
 /* Underline From Center */
