@@ -43,7 +43,7 @@ a:hover {
 .btn-start-learning,
 .btn-book-session,
 .btn-send-message {
-    box-shadow: 5px 5px 10px #212529;
+    box-shadow: 2px 2px 6px #212529;
 }
 .action-button {
     text-align: center;
