@@ -116,25 +116,15 @@ I wanted to use Font Awesome icons to label each input. I got inspiration from t
 ## Technologies used
 
 | Name | Type | Site url | Why use it? |
-
 | :------ | :------ | :------ | :------ |
-
 | HTML5 | Language | https://www.w3.org/TR/html52/ | To structure the website |
-
 | CSS3 | Language | https://www.w3.org/Style/CSS/Overview.en.html | To style and layout the website |
-
 | Bootstrap | Framework | https://getbootstrap.com/ | To make layout easier |
-
 | Font awesome | Toolkit | https://fontawesome.com/ | To use vector icons and social logos |
-
 | Hover.css | Library | https://ianlunn.github.io/Hover/ | To use hover effects |
-
 | Real favicon generator | Tool | https://realfavicongenerator.net | To generate favicons from an image |
-
 | Croppola | Tool | https://croppola.com/ | To crop my images |
-
 | Reduce Images | Tool | https://www.reduceimages.com/ | To reduce the size of my images |
-
 | Audacity | Software | https://www.audacityteam.org/ | To record audio and create audio files |
 | Favicon Generator | Tool | https://realfavicongenerator.net | To general favicons for website |
 
