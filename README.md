@@ -117,7 +117,7 @@ I wanted to use Font Awesome icons to label each input. I got inspiration from t
 
 | Name | Type | Site url | Why use it? |
 
-| :------ |:------- | :---- |:---- |
+| :------ |:------- | :---- | :---- |
 
 | HTML5 | Language | https://www.w3.org/TR/html52/ | To structure the website |
 
