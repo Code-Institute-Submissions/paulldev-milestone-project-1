@@ -148,12 +148,6 @@ audio {
 #book-a-session form button {
     margin-top: 1rem;
 }
-/* https://stackoverflow.com/questions/9686538/align-labels-in-form-next-to-input */
-#book-a-session label {
-    display: inline-block;
-    width: 140px;
-    text-align: right;
-}
 /* date picker https://codepen.io/maheshambure21/pen/VYJQYG */
 [type="date"] {
     background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
@@ -169,10 +163,13 @@ audio {
     border-radius: 5px;
     padding: 6px 6px;
     box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
-    width: 200px;
+    width: 250px;
 }
 #book-a-session select {
-    width: 200px;
+    width: 250px;
+}
+#book-a-session label {
+    width: 120px;
 }
 /***************************************************************************** CONTACT US */
 #contact-us {
