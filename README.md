@@ -3,7 +3,7 @@
 
 ### Live website: https://paulldev.github.io/milestone-project-1/
 ### Repository: https://github.com/paulldev/milestone-project-1
-
+### Wireframe: https://github.com/paulldev/milestone-project-1/blob/master/wireframe.pdf
   
 
 ## Introduction
